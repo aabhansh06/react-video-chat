@@ -1,8 +1,63 @@
-# React + Vite
+# React Video Chat
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time video chat application built with React, Socket.IO, and WebRTC.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Real-time video chat
+- Multiple camera support (including Iriun Webcam)
+- User presence detection
+- Modern UI with Tailwind CSS
+- Peer-to-peer connection using WebRTC
+
+## Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+- Modern web browser with WebRTC support
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/YOUR_USERNAME/react-video-chat.git
+cd react-video-chat
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the server:
+```bash
+node server/index.js
+```
+
+4. In a new terminal, start the React development server:
+```bash
+npm run dev
+```
+
+## Using with Iriun Webcam
+
+1. Install Iriun Webcam:
+   - Download PC client from https://iriun.com/
+   - Install mobile app from Play Store/App Store
+
+2. Connect:
+   - Run Iriun on your PC
+   - Open the app on your phone
+   - Select Iriun Webcam from the camera dropdown in the app
+
+## Environment Variables
+
+Create a `.env` file in the root directory:
+
+```env
+VITE_SERVER_URL=http://localhost:8000
+```
+
+## License
+
+MIT
