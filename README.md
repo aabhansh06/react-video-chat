@@ -1,5 +1,7 @@
 # React Video Chat
 
+https://github.com/user-attachments/assets/2ce7490a-1f4c-42a4-b042-604ee4036c95
+
 A real-time video chat application built with React, Socket.IO, and WebRTC.
 
 ## Features
